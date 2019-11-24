@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ZipCo</string>
+    <string name="vendor">vendor</string>
+    <string name="brand">brand</string>
+    <string name="discount">discount</string>
+</resources>
