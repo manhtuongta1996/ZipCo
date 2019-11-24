@@ -56,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
 
                 RecyclerViewAdapter giftCardRecyclerViewAdapter = new RecyclerViewAdapter(MainActivity.this, giftCards);
                 giftCardRecyclerView.setLayoutManager(new GridLayoutManager(MainActivity.this,2));
+                ItemOffsetDecoration itemDecoration = new ItemOffsetDecoration(MainActivity.this, R.dimen.item_offset);
+                giftCardRecyclerView.addItemDecoration(itemDecoration);
                 giftCardRecyclerView.setAdapter(giftCardRecyclerViewAdapter);
             }
 
